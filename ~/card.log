@@ -1,0 +1,31 @@
+2020-05-08 14:17:43.631  INFO 46188 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-QS5TOJ5 with PID 46188 (C:\Users\tangh\Desktop\code\spider\demo\demo\target\classes started by tangh in C:\Users\tangh\Desktop\code\spider\demo\demo)
+2020-05-08 14:17:43.639  INFO 46188 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-05-08 14:17:45.635  INFO 46188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-08 14:17:45.836  INFO 46188 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 175ms. Found 2 JPA repository interfaces.
+2020-05-08 14:17:47.428  INFO 46188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-08 14:17:47.464  INFO 46188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-08 14:17:47.465  INFO 46188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-08 14:17:47.826  INFO 46188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-08 14:17:47.827  INFO 46188 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4052 ms
+2020-05-08 14:17:47.952  INFO 46188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-08 14:17:48.318  INFO 46188 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-08 14:17:48.329  INFO 46188 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/card'
+2020-05-08 14:17:48.645  INFO 46188 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-08 14:17:49.026  INFO 46188 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-08 14:17:49.393  INFO 46188 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-08 14:17:49.739  INFO 46188 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-05-08 14:17:52.241  INFO 46188 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-08 14:17:52.277  INFO 46188 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-08 14:17:52.559  WARN 46188 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-08 14:17:53.744  INFO 46188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-08 14:17:54.205  INFO 46188 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-05-08 14:17:54.403  INFO 46188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-08 14:17:54.412  INFO 46188 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 12.002 seconds (JVM running for 14.565)
+2020-05-08 14:17:56.454  INFO 46188 --- [scheduling-1] c.e.demo.service.imp.CardServiceImp      : {"IsSuccess":true,"Error_Code":0,"Error_Msg":"","Data":{"Title":"淘宝十年老店，金冠卡商：踏雪寻梅5521","PicUrl":"//91kami-website-pic.oss-cn-zhangjiakou.aliyuncs.com/5d3315688380417f86a78dfc6d5742f5/AEF02844DBCDC1312C8DC8203ED99C94.jpg?Expires=1588919566&OSSAccessKeyId=LTAI5Uamv0T6j0SD&Signature=rVoFZGODNAZG7M62BZ8xGyYXA08%3D","ICPStr":"粤ICP备17155065号"}}
+2020-05-08 14:18:24.480  INFO 46188 --- [scheduling-1] c.e.demo.service.imp.CardServiceImp      : {"IsSuccess":true,"Error_Code":0,"Error_Msg":"","Data":{"Title":"淘宝十年老店，金冠卡商：踏雪寻梅5521","PicUrl":"//91kami-website-pic.oss-cn-zhangjiakou.aliyuncs.com/5d3315688380417f86a78dfc6d5742f5/AEF02844DBCDC1312C8DC8203ED99C94.jpg?Expires=1588919594&OSSAccessKeyId=LTAI5Uamv0T6j0SD&Signature=1Vh%2F%2BHrq%2FyayfDgGWIbcQJB2DUc%3D","ICPStr":"粤ICP备17155065号"}}
+2020-05-08 14:18:54.653  INFO 46188 --- [scheduling-1] c.e.demo.service.imp.CardServiceImp      : {"IsSuccess":true,"Error_Code":0,"Error_Msg":"","Data":{"Title":"淘宝十年老店，金冠卡商：踏雪寻梅5521","PicUrl":"//91kami-website-pic.oss-cn-zhangjiakou.aliyuncs.com/5d3315688380417f86a78dfc6d5742f5/AEF02844DBCDC1312C8DC8203ED99C94.jpg?Expires=1588919624&OSSAccessKeyId=LTAI5Uamv0T6j0SD&Signature=G8BP4rqzq9nlNGgF%2B4fGfziS%2F0Q%3D","ICPStr":"粤ICP备17155065号"}}
+2020-05-08 14:18:56.311  INFO 46188 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-05-08 14:18:56.312  INFO 46188 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-08 14:18:56.317  INFO 46188 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-08 14:18:56.328  INFO 46188 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-08 14:18:56.346  INFO 46188 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
